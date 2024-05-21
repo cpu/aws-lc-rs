@@ -78,7 +78,7 @@ const MAX_HKDF_SALT_LEN: usize = 80;
 // This is needed so that the precise value can be provided in the documentation.
 macro_rules! max_hkdf_info_len {
     () => {
-        102
+        300
     };
 }
 
